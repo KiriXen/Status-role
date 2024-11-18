@@ -59,7 +59,7 @@ require('events').defaultMaxListeners = 0;
 
 require("./modules/status-role")(client);
 
-client.login(config.env.TOKEN || process.env.TOKEN);
+client.login(process.env.TOKEN);
 
 /**********************************************************
  * @INFO
