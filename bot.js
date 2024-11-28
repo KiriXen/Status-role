@@ -41,7 +41,7 @@ const client = new Client({
     ],
     presence: {
         activities: [{
-            name: `Status Role - dsc.gg/4uwhispers`,
+            name: `Status Role - dsc.gg/shayou`,
             type: "PLAYING",
         }],
         status: "online"
